@@ -133,13 +133,13 @@ export default function Home() {
       <section className="relative z-10 min-h-screen flex items-end px-6 md:px-8 pb-12 md:pb-16">
         <div className="w-full">
           <div className="max-w-3xl">
-            <h1 className="font-space-grotesk text-6xl md:text-8xl lg:text-9xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-orange-400 to-yellow-400 bg-clip-text text-transparent leading-tight">
+            <h1 className="font-great-vibes text-5xl md:text-7xl lg:text-8xl mb-6 bg-gradient-to-r from-blue-400 via-orange-400 to-yellow-400 bg-clip-text text-transparent leading-[1] tracking-wider">
               Horizon
             </h1>
-            <p className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-4 text-white/90 font-inter">
+            <p className="font-playfair text-2xl md:text-3xl lg:text-4xl font-medium italic mb-4 text-white/90 leading-tight tracking-wide">
             Built for the next era of trading. 
             </p>
-            <p className="text-lg md:text-xl lg:text-2xl text-white/70 max-w-2xl leading-relaxed font-inter mb-8">
+            <p className="font-playfair text-lg md:text-xl lg:text-2xl text-white/70 max-w-2xl leading-relaxed font-light italic tracking-normal mb-8">
               AI-powered forecasting and hedging of everyday uncertainties via Kalshi markets.
             </p>
             

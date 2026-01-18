@@ -12,6 +12,13 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        inter: ["var(--font-inter)", "sans-serif"],
+        "space-grotesk": ["var(--font-space-grotesk)", "sans-serif"],
+        poppins: ["var(--font-poppins)", "sans-serif"],
+        "great-vibes": ["var(--font-great-vibes)", "cursive"],
+        playfair: ["var(--font-playfair)", "serif"],
+      },
     },
   },
   plugins: [],
