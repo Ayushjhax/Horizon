@@ -169,13 +169,13 @@ export default function Home() {
         <div className="w-full">
           <div className="max-w-3xl">
             <h1 className="font-allura text-6xl md:text-8xl lg:text-9xl mb-6 bg-gradient-to-r from-blue-400 via-orange-400 to-yellow-400 bg-clip-text text-transparent leading-[1.1] tracking-wide">
-              Horizon
+              Pretzl
             </h1>
             <p className="font-playfair text-2xl md:text-3xl lg:text-4xl font-medium italic mb-4 text-white/90 leading-tight tracking-wide">
             Built for the next era of trading. 
             </p>
             <p className="font-playfair text-lg md:text-xl lg:text-2xl text-white/70 max-w-2xl leading-relaxed font-light italic tracking-normal mb-8">
-              AI-powered forecasting and hedging of everyday uncertainties via Kalshi markets.
+              A Multi-Agentic sovereign hedge fund dismantling the Great Extraction.
             </p>
             
             {/* Join Waitlist Button - Below Hero Text */}
@@ -227,38 +227,46 @@ export default function Home() {
             </div>
 
             <div className="max-w-4xl mx-auto space-y-8">
-              <FAQItem
-                question="What is HorizonAI?"
-                answer={`Horizon's AI scans news and data (economic reports, social media, satellite weather feeds, etc.) to gauge risks like inflation jumps or storms. When a risk rises, it automatically buys or sells "Yes/No" shares on a prediction market corresponding to that event. For example, if groceries are going to get expensive, Horizon might buy a "Yes" share in an event like "CPI inflation > 4%" to offset your cost increase. All trading happens on Kalshi's markets, which are now tokenized on Solana via DFlow and Jupiter. In practice this means trades are executed on-chain in a single step (a hybrid RFQ system), giving you instant, transparent hedges against the predicted outcome.`}
-                defaultOpen={true}              />
-              <FAQItem
-                question="Is it safe?"
-                answer={`Yes. Horizon uses Kalshi – the first CFTC-regulated prediction market – so every contract and payout is overseen by regulators. Trades settle on Solana's blockchain, which is public and non-custodial (no one can run away with your funds). In fact, Kalshi's tokenized markets are "non-custodial, instant, and crypto native", meaning each trade is governed by smart contracts you can audit. That said, prediction markets are speculative by nature, so we always advise setting sensible limits and understanding that hedges can reduce losses but not eliminate risk entirely.`}
-              />
-              <FAQItem
-                question="Do I need crypto?"
-                answer="You will use crypto indirectly. Horizon routes all trades through Solana's ecosystem, so you'll connect a Solana-compatible wallet (e.g. Phantom) to trade using a stablecoin like USDC. However, you don't need to be a blockchain expert. Horizon provides a simple interface and on-ramps: for example, you can fund your account with a bank card, and we convert it to the required token. The platform shows exactly how much crypto is needed for each hedge. In short: you don't need prior crypto experience, but all transactions happen on-chain for speed and transparency."
-              />
-              <FAQItem
-                question="What are prediction markets?"
-                answer={`A prediction market is like a stock exchange for future events. Instead of trading company shares, you trade contracts whose price reflects the probability of an event (e.g. "Will it rain tomorrow?" or "Will inflation exceed 4%?"). Each share costs between $0 and $1. If you buy a share on the outcome you believe will happen (say "Yes" for inflation >4%), and that outcome occurs, each winning share pays out $1. If the outcome doesn't occur, your shares expire worth nothing. The current price of the share (say $0.60) effectively signals a 60% chance of that event. In other words, you earn money if you buy low and the outcome happens. This lets anyone hedge or speculate on real-world risks.`}
-              />
-              <FAQItem
-                question="Can I trust the AI?"
-                answer="We build Horizon's AI with strong safeguards. The models are regularly tested on historical data and overseen by financial experts. In fact, many financial firms rely on predictive analytics: surveys show 77% of wealth managers say AI-driven forecasts improve their decisions. Still, Horizon's AI is just a tool. We recommend users monitor and adjust settings as needed. All trades remain your choice – the AI suggests probabilities and automates execution, but you can review every move. We also continually refine the algorithms, and you can disable or stop any automation at any time. In practice, our hybrid approach (AI plus oversight) has proven reliable for identifying trends like weather or inflation impacts."
-              />
-              <FAQItem
-                question="Can I make money using this?"
-                answer="Prediction markets can be profitable, but they carry risk – just like stock trading or poker. Success often comes from finding mispriced opportunities or hedging existing exposures. For example, if you own stocks that might drop when rates rise, a winning bet on a Fed hike can offset that loss. Horizon provides advanced tools to seek these edges, but we never promise gains. Users should treat Horizon primarily as a risk management tool: it can protect or improve your financial outcome if events unfold in your favor, but losses are always possible. Always start small, understand the odds (prices), and only invest what you're comfortable risking."
-              />
-              <FAQItem
-                question="Is it free? What are the fees?"
-                answer="Horizon itself has no subscription fee – you only pay the standard transaction fees of the markets and blockchain. Kalshi charges a small commission on your winning trades (a percentage of the profit, visible before you trade). There are no hidden costs, and you pay only when your trade succeeds. You will also pay Solana network fees (typically just a few cents per transaction) when trades execute. The app always displays the fee upfront, so there are no surprises."
-              />
-              <FAQItem
-                question="Who is this built for?"
-                answer="Horizon is built for everyone who cares about real-world financial risks. That includes the everyday consumer – say, a young family worried about rising grocery bills or oil prices – as well as professional traders and portfolio managers seeking to automate event-driven strategies. If you pay rent, buy gas, or invest in markets, Horizon can help protect you. Its friendly interface makes sophisticated hedging accessible to non-experts, while its programmable features offer power users a way to integrate macro event trading into a larger portfolio."
-              />
+            <FAQItem
+  question="What defines Elyra as an 'Agentic Sovereign Fund' vs. a traditional quant fund?"
+  answer={`Traditional funds rely on human analysts to interpret data and "bots" to execute static code. Elyra replaces the human bottleneck with Autonomous Capital Swarms. Our agents don't just execute orders; they perform research, monitor systemic risk in shadow banking, and self-correct their strategies in real-time within Trusted Execution Environments (TEEs). It is a "One-Person Civilization" stack where the AI is the researcher, the trader, and the risk manager.`}
+  defaultOpen={true}
+/>
+
+<FAQItem
+  question='What is "The Great Extraction," and how does Elyra solve it?'
+  answer={`The current financial system systematically moves wealth from wage earners to asset owners through an opaque, $1.7T+ shadow banking "blackbox." Elyra weaponizes transparency. By using our Shadow Map Agent to scrape SEC filings and reconstruct hidden debt graphs, we turn institutional opacity into a retail "Alpha" signal, allowing the public to front-run the insolvency of legacy financial engineering.`}
+/>
+
+<FAQItem
+  question="Why is the Elyra stack built on Solana?"
+  answer={`Speed and capital formation. To compete with HFT (High-Frequency Trading) firms, we need sub-second finality and minimal fees. Solana allows Elyra to initiate Dutch Auctions and Capital Swarms instantly, enabling a network of individuals to aggregate capital and move with the agility of a single institutional entity.`}
+/>
+
+<FAQItem
+  question='How does the "Open Claw" Intelligence Stack work?'
+  answer={`Open Claw is our vertically integrated research layer. While legacy funds pay $50,000/year for data that is already months old, Open Claw agents scrape real-time event streams from DeFi liquidations to SEC EDGAR filings to create a "True Default Rate" oracle. This intelligence is then fed directly into our trading agents across Hyperliquid, Drift, and Jupiter.`}
+/>
+
+<FAQItem
+  question="How do you ensure the security of autonomous agents handling capital?"
+  answer={`We utilize TEEs (Trusted Execution Environments). This means the agent’s logic and private keys are housed in encrypted, hardware-level containers. Even the developers cannot intervene or "rug" the strategy once it is live. This creates a trustless environment where the agent’s sovereignty is mathematically guaranteed.`}
+/>
+
+<FAQItem
+  question="Is Elyra a trading bot or a software infrastructure?"
+  answer={`It is a complete vertical stack. Most "bots" are just tools that require constant human supervision. Elyra provides the eight core operational domains from risk controls and post-trade ledgers to research pipelines needed to run a hedge fund autonomously. We aren't building a better tool; we are building an autonomous replacement for the firm itself.`}
+/>
+
+<FAQItem
+  question="What is the 'Return Equation' used by the agents?"
+  answer={`Our agents optimize for Net Value Realization. We define performance through a rigorous derivative formula:
+
+Total Return = Σ (Win Rate × Profit − Loss Rate × Loss) × Frequency
+
+By removing human emotional volatility and execution gaps, we maximize the "Frequency" and "Win Rate" components that typically degrade in biological traders during 24/7 market cycles.`}
+/>
+
             </div>
           </div>
         </section>
