@@ -39,6 +39,11 @@ const allura = Allura({
 export const metadata: Metadata = {
   title: "Built for the next era of trading. ",
   description: "AI-powered forecasting and hedging of everyday uncertainties via Kalshi markets.",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({
